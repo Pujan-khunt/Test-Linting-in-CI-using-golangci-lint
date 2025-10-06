@@ -2,10 +2,14 @@ package main
 
 import (
 	"errors"
+	"fmt"
 )
 
 func main() {
-	returnDataAndError()
+	err := returnDataAndError()
+	if err != nil {
+		fmt.Println("error occured.")
+	}
 }
 
 func returnDataAndError() error {
