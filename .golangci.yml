@@ -6,7 +6,3 @@ linters:
   enable:
     - errcheck
     - staticcheck
-
-issues:
-  exclude-use-default: false
-
