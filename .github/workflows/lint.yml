@@ -22,7 +22,7 @@ jobs:
       - name: Install golangci-lint
         uses: golangci/golangci-lint-action@v8
         with:
-          version: v2.1
+          version: latest
 
       - name: Run golangci-lint
         run: golangci-lint run --config ./.golangci.yml ./...
